@@ -1,0 +1,6 @@
+# Project exclude paths
+/.gradle/
+/build/
+/RestApi/build/
+/RestApi/build/classes/java/main/
+/SpockIntegration/build/

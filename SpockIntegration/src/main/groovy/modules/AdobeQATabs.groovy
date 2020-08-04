@@ -1,0 +1,4 @@
+package modules
+
+class AdobeQATabs  {
+}

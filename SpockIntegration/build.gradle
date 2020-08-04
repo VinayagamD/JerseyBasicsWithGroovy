@@ -1,0 +1,14 @@
+group 'com.vinaylogics'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.spockframework/spock-core
+    implementation group: 'org.spockframework', name: 'spock-core', version: '1.3-groovy-2.5'
+// https://mvnrepository.com/artifact/org.gebish/geb-spock
+    implementation group: 'org.gebish', name: 'geb-spock', version: '3.4'
+
+}

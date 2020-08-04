@@ -1,0 +1,18 @@
+
+plugins{
+    id 'war'
+}
+
+dependencies {
+
+    def jersey_version = '2.31'
+
+    // https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-common
+    // https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-server
+    compile group: 'org.glassfish.jersey.core', name: 'jersey-server', version: "$jersey_version"
+    // https://mvnrepository.com/artifact/org.glassfish.jersey.containers/jersey-container-servlet
+    compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet', version: "$jersey_version"
+    // https://mvnrepository.com/artifact/org.glassfish.jersey.inject/jersey-hk2
+    compile group: 'org.glassfish.jersey.inject', name: 'jersey-hk2', version: "$jersey_version"
+
+}

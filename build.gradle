@@ -1,0 +1,41 @@
+
+
+group 'com.vinaylogics'
+version '1.0-SNAPSHOT'
+
+
+allprojects {
+   apply plugin: "java"
+   apply plugin: "groovy"
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+    dependencies {
+        // https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-all
+        implementation group: 'org.codehaus.groovy', name: 'groovy-all', version: '3.0.5', ext: 'pom'
+
+    }
+
+}
+
+subprojects {
+   apply plugin: "java"
+   apply plugin: "groovy"
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+    dependencies {
+        // https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-all
+        implementation group: 'org.codehaus.groovy', name: 'groovy-all', version: '3.0.5', ext: 'pom'
+
+    }
+
+}
+
+
